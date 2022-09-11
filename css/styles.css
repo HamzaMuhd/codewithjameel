@@ -1,3 +1,4 @@
+/* calculator body properties */
 .body {
   position: absolute;
   background-color: #47444a;
@@ -8,257 +9,104 @@
   border-radius: 5%;
   border: 2px solid;
 }
-
-.circle {
+h2 {
   position: absolute;
-  background-color: #ed6a5f;
+  color: black;
+  font-weight:bold;
+  font-size: 200%;
+  left: 36%;
+  top: 10%;
+}
+/* taskbar navigation properties of three cirle bottun*/
+.taskbar {
+  position: absolute;
   top: 2%;
   left: 3%;
-  width: 4%;
-  height: 4%;
-  border-radius: 100%;
+  height: 20%;
+  width: 40%
 }
 
-.circle1 {
-  position: absolute;
-  background-color: #f1a94c;
-  top: 2%;
-  left: 11%;
-  width: 4%;
-  height: 4%;
+.taskbar button {
   border-radius: 100%;
+  width: 10%;
+  height: 20%;
+  border-width: 0px;
+  margin-left: 10px;
 }
 
-.circle2 {
-  position: absolute;
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
   background-color: green;
-  top: 2%;
-  left: 19%;
-  width: 4%;
-  height: 4%;
-  border-radius: 100%;
+}
+/* calculator screen */
+
+.screen {
+  width: 100%;
+  height: 34%;
 }
 
-.bottum {
-  position: absolute;
-  background-color: #59565c;
-  top: 34%;
-  width: 25%;
-  height: 12.5%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum1 {
-  position: absolute;
-  background-color: #59565c;
-  top: 34%;
-  width: 25%;
-  height: 12.5%;
-  left: 25%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum2 {
-  position: absolute;
-  background-color: #59565c;
-  top: 34%;
-  width: 25%;
-  height: 12.5%;
-  left: 50%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum3 {
-  position: absolute;
-  background-color: orange;
-  top: 34%;
-  width: 24.5%;
-  height: 12.5%;
-  left: 75%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum4 {
-  position: absolute;
-  background-color: #747277;
-  top: 47%;
-  width: 25%;
-  height: 12.5%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum5 {
-  position: absolute;
-  background-color: #747277;
-  top: 47%;
-  width: 25%;
-  height: 12.5%;
-  left: 25%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum6 {
-  position: absolute;
-  background-color: #747277;
-  top: 47%;
-  width: 25%;
-  height: 12.5%;
-  left: 50%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum7 {
-  position: absolute;
-  background-color: orange;
-  top: 47%;
-  width: 24.5%;
-  height: 12.5%;
-  left: 75%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum8 {
-  position: absolute;
-  background-color: #747277;
-  top: 60%;
-  width: 25%;
-  height: 12.5%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum9 {
-  position: absolute;
-  background-color: #747277;
-  top: 60%;
-  width: 25%;
-  height: 12.5%;
-  left: 25%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum10 {
-  position: absolute;
-  top: 60%;
-  background-color: #747277;
-  width: 25%;
-  height: 12.5%;
-  left: 50%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum11 {
-  position: absolute;
-  background-color: orange;
-  top: 60%;
-  width: 24.5%;
-  height: 12.5%;
-  left: 75%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum12 {
-  position: absolute;
-  background-color: #747277;
-  top: 73%;
-  width: 25%;
-  height: 12.5%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum13 {
-  position: absolute;
-  background-color: #747277;
-  top: 73%;
-  width: 25%;
-  height: 12.5%;
-  left: 25%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum14 {
-  position: absolute;
-  background-color: #747277;
-  top: 73%;
-  width: 25%;
-  height: 12.5%;
-  left: 50%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum15 {
-  position: absolute;
-  background-color: orange;
-  top: 73%;
-  width: 24.5%;
-  height: 12.5%;
-  left: 75%;
-  border: 1px solid;
-text-align: center;
-}
-
-.bottum16 {
-  position: absolute;
-  top: 86%;
-  background-color: #747277;
-  width: 50%;
-  height: 13.5%;
-  left: 0%;
-  border: 1px solid;
-  border-radius: 0px 0px 0px 18px;
-  text-align: center;
-}
-
-.bottum17 {
-  position: absolute;
-  background-color: #747277;
-  top: 86%;
-  width: 25%;
-  height: 13.5%;
-  left: 50%;
-  border: 1px solid;
-  text-align: center;
-}
-
-.bottum18 {
-  position: absolute;
-  background-color: orange;
-  top: 86%;
-  width: 24.5%;
-  height: 13.5%;
-  left: 75%;
-  border: 1px solid;
-  border-radius: 0px 0px 18px 0px;
-  text-align: center;
-}
-
-h2 {
-  position: relative;
-  color: #e9e8e9;
-  font-weight: 500;
-  font-size: 260%;
-  margin:15px auto;
-}
 h1 {
   position: absolute;
   color: #e9e8e9;
   right: 5%;
   top: -2%;
   font-size: 800%;
-  font-weight:10;
+  font-weight: 10;
   font-family: "Georgia", serif;
+}
+/* button display properties of numbers, editors and operators*/
+.number {
+  position: absolute;
+  top: 34%;
+  width: 75%;
+  height: 65%;
+}
+.operators{
+  position: absolute;
+  top: 34;
+  width: 25%;
+  height: 65%;
+  left: 75%;
+}
+.bottun {
+  background-color: #747277;
+  width: 32%;
+  height: 20%;
+  color: #e9e8e9;
+  font-weight: 500;
+  font-size: 260%;
+}
+
+.large_bottun {
+  background-color: #747277;
+  width: 65%;
+  height: 20%;
+  color: #e9e8e9;
+  font-weight: 500;
+  font-size: 260%;
+  border-radius: 0px 0px 0px 18px;
+}
+.edge {
+  border-radius: 0px 0px 18px 0px;
+}
+.editors{
+  background-color: #59565c;
+  color: #e9e8e9;
+  font-weight: 500;
+  font-size: 260%;
+}
+.bottun-operators {
+  background-color: orange;
+  width: 100%;
+  height: 20%;
+  color: #e9e8e9;
+  font-weight: 500;
+  font-size: 260%;
 }
