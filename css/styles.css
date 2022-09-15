@@ -67,6 +67,7 @@ h1 {
   top: 34%;
   width: 75%;
   height: 65%;
+  border-left: 0px;
 }
 .operators{
   position: absolute;
@@ -74,24 +75,27 @@ h1 {
   width: 25%;
   height: 65%;
   left: 75%;
+  border-left: 0px;
 }
 .bottun {
   background-color: #747277;
-  width: 32%;
+  width: 32.5%;
   height: 20%;
   color: #e9e8e9;
   font-weight: 500;
   font-size: 260%;
+  border-left: 0px;
 }
 
 .large_bottun {
   background-color: #747277;
-  width: 65%;
+  width: 66%;
   height: 20%;
   color: #e9e8e9;
   font-weight: 500;
   font-size: 260%;
   border-radius: 0px 0px 0px 18px;
+  border-left: 0px;
 }
 .edge {
   border-radius: 0px 0px 18px 0px;
@@ -101,6 +105,7 @@ h1 {
   color: #e9e8e9;
   font-weight: 500;
   font-size: 260%;
+  border-left: 0px;
 }
 .bottun-operators {
   background-color: orange;
@@ -109,4 +114,5 @@ h1 {
   color: #e9e8e9;
   font-weight: 500;
   font-size: 260%;
+  border-left: 0px;
 }
