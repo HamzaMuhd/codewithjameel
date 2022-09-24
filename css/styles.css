@@ -10,6 +10,7 @@
   border: 2px solid;
 }
 h2 {
+
   position: absolute;
   color: black;
   font-weight:bold;
@@ -69,6 +70,7 @@ h1 {
   height: 65%;
   border-left: 0px;
 }
+
 .operators{
   position: absolute;
   top: 34;
@@ -83,8 +85,8 @@ h1 {
   height: 20%;
   color: #e9e8e9;
   font-weight: 500;
-  font-size: 260%;
   border-left: 0px;
+  font-size: 260%;
 }
 
 .large_bottun {
@@ -97,9 +99,11 @@ h1 {
   border-radius: 0px 0px 0px 18px;
   border-left: 0px;
 }
+
 .edge {
   border-radius: 0px 0px 18px 0px;
 }
+
 .editors{
   background-color: #59565c;
   color: #e9e8e9;
@@ -107,6 +111,7 @@ h1 {
   font-size: 260%;
   border-left: 0px;
 }
+
 .bottun-operators {
   background-color: orange;
   width: 100%;
